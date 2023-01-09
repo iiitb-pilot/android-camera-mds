@@ -27,7 +27,7 @@ public class DeviceKeystore {
 	}
 
 	public String getJwt(byte[] data) {
-		String keystorePwd = "mosipface";
+		String keystorePwd = "qwerty123";
 		String keyAlias = "Device";
 		PrivateKey privateKey = null;
 		Certificate x509Certificate = null;
